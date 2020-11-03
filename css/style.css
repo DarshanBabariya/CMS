@@ -1,0 +1,593 @@
+body {
+	color: #000;
+	background-color: #fff;
+    font-family: 'Oxygen',serif ;
+    font-size: 22px;
+    width: 100%;
+}
+/*top-info*/
+#top {
+	background-color: #FF0000;
+	color: #fff;
+	letter-spacing: 1px;
+}
+.call0 {
+	font-size: 15px;
+	padding-left: 40px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.call0 span a {
+	text-decoration: none;
+	color: #fff;
+}
+.call0 span a:hover {
+	font-size: 1.05em;
+}
+.social-media span a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+.join a {
+	color: #fff;
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.join a:hover {
+	font-weight: bold;
+	color: #000;
+
+}
+/*brand-name*/
+.cms-brand {
+	background-color: #FFF8CD;
+
+}
+#brand-logo img {
+	width: 80%;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#brand-name a h1{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #F8C471;
+	color: #272833;
+	letter-spacing: 2px;
+	padding-top: 30px;
+}
+#brand-name a {
+	text-decoration: none;
+}
+
+/*menu-bar*/
+#header-nav {
+	background-color: #FFF8CD;
+}
+.navbar-nav {
+	margin-left: 200px;
+}
+.nav-item a {
+	color: #272833;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 20px ;
+}
+.nav-item a:hover {
+	background-color: #FF0000;
+	color: #fff;
+	border: 2px solid #fff;
+  	border-radius: 8px;
+
+}
+
+/*brif-info*/
+.brif-info {
+	padding: 50px 50px;
+}
+#quote {
+	font-size: 22px;
+	text-align: justify;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+#info p{
+	font-size: 18px;
+	text-align: justify;
+	color: #272833;
+	margin-top: 25px;
+}
+#info-img {
+	padding-left: 100px;
+	width: 100%;
+	height:100%;
+}
+/*shape-curve*/
+.custom-shape-divider-bottom-1604036513 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1604036513 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1604036513 .shape-fill {
+    fill: #FF0000;
+}
+
+/*complaint-add*/
+
+#complaint-add {
+	background-color: #FF0000;
+	padding-top: 90px;
+	padding-bottom: 100px; 
+}
+
+#complaint-tile {
+	text-align: center;
+}
+#complaint-tile span {
+	display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px #272833;
+    background: #fff;
+    line-height: 230px;
+    position: relative;
+}
+#complaint-tile span .fas {
+	color: #FF0000;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px #272833;
+}
+#complaint-tile h4 {
+	margin: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+
+}
+#complaint-tile p {
+	font-size: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+	color: #fff;
+	text-transform: capitalize;
+}
+#complaint-tile {
+	margin-top: 50px;
+}
+#complaint-tile a:hover span .fas {
+	font-size: 70px;
+}
+
+/*shape-curve*/
+
+.custom-shape-divider-top-1604042382 .shape-fill {
+    fill: #FF0000;
+}
+
+/*steps for filling complaints*/
+#steps-us {
+	padding-bottom: 50px;
+}
+#steps {
+	margin-top: 90px;
+	color: #272833;
+}
+#steps-head h3 {
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+#steps-tile h5 {
+	font-size: 1.5em;
+	text-transform: capitalize;
+	margin: 20px;
+	font-weight: 550;
+}
+#steps-tile h6 {
+	font-size: 1.1em;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin: 20px;
+}
+#steps-tile p {
+	font-size: 20px;
+	margin: 20px;
+	text-align: justify;
+}
+#steps-tile img {
+	margin-top: 50px;
+	width: 100%;
+	height: 100%:;
+}
+
+/*****      EXTRA LARGE DEVICE ONLY         *****/
+@media (min-width: 1200px) {
+/*top-info*/
+
+	.visible {
+  			visibility: visible !important;
+	}
+	.invisible {
+  			visibility: visible !important;
+	}		
+/*brand-name*/
+/*menu-bar*/
+/*brif-info*/
+
+
+}
+
+/*****      LARGE DEVICE ONLY           *****/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*top-info*/
+	
+	.social-media span a{
+		letter-spacing: 0px;
+	}
+	.social-media span a button {
+		letter-spacing: 1px;
+	}
+	.visible {
+  			visibility: visible !important;
+	}
+	.invisible {
+  			visibility: visible !important;
+	}
+/*brand-name*/
+	#brand-name a h1{
+		font-size: 2em;
+		padding-top: 20px;
+	}
+/*menu-bar*/
+	.navbar-nav {
+		margin-left: 30px;
+	}
+	.nav-item a {
+		font-size: 18px;
+	}
+/*brif-info*/
+	.brif-info {
+		padding: 30px 30px;
+	
+	}
+	#quote {
+		font-size: 20px;
+	}
+	#info p{
+		font-size: 18px;
+		margin-top: 25px;
+	}
+	#info-img {
+		padding-left: 20px;
+		padding-top: 80px;
+	}
+
+/*complaint-add*/
+	#complaint-tile h4 {
+		font-size: 20px;
+	}
+	#complaint-tile p {
+		font-size: 18px;
+	}
+/*steps for filling complaints*/
+
+	#steps-head h3 {
+		font-size: 1.5em;
+	}
+	#steps-tile h5 {
+		font-size: 1.2em;
+	}
+	#steps-tile h6 {
+		font-size: .9em;
+	}
+	#steps-tile p {
+		font-size: 16px;
+	}
+	#steps-tile img {
+		margin-top: 150px;
+	}	
+}
+
+/*****      MEDIUM DEVICE ONLY          *****/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*top-info*/
+
+	.social-media span a{
+		letter-spacing: 0px;
+		font-size: 0px;
+	}
+	.social-media span a button {
+		letter-spacing: 0px;
+	}
+	.call0 {
+		padding-left: 30px;
+	}
+    .visible {
+  			visibility: hidden !important;
+	}
+	.invisible {
+  			visibility: visible !important;
+	}
+/*brand-name*/
+
+	#brand-logo img {
+		width: 90%;
+	}
+	#brand-name a h1{
+		font-size: 1.55em;
+		letter-spacing: 1px;
+		padding-top: 20px;
+	}
+
+/*menu-bar*/
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.nav-item a {
+		font-size: 20px;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	.nav-item {
+		padding: 0 ;
+	}
+/*brif-info*/
+	.brif-info {
+		padding: 20px 50px;
+	}
+	#quote {
+		font-size: 20px;
+	}
+	#info p{
+		font-size: 17px;
+	}
+	#info-img {
+		padding-left: 100px;
+	}
+/*complaint-add*/
+/*steps for filling complaints*/
+
+	#steps-head h3 {
+		font-size: 1.6em;
+	}
+	#steps-tile h5 {
+		font-size: 1.3em;
+	}
+	#steps-tile h6 {
+		font-size: 1em;
+	}
+	#steps-tile p {
+		font-size: 18px;
+
+	}
+	#steps-tile img {
+		margin-top: 10px;
+		width: 80%;
+		height: 80%;
+		margin-left: 50px;
+	}
+}
+
+/*****      SMALL DEVICE ONLY       *****/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*top-info*/
+
+	.social-media span a{
+		letter-spacing: 0px;
+		font-size: 0px;
+	}
+	.social-media span a button {
+		letter-spacing: 0px;
+	}
+	.social-media {
+		font-size: 0px;
+	}
+	.call0 {
+		font-size: 0px;
+	}
+	.join a button {
+		font-size: 16px;
+	}
+	.join {
+		text-align: center;
+	}
+	.visible {
+  			visibility: hidden !important;
+	}
+	.invisible {
+  			visibility: hidden !important;
+	}
+/*brand-name*/
+	#brand-logo img {
+		width: 120%;
+	}
+	#brand-name a h1{
+		font-size: 1.15em;
+		letter-spacing: 1px;
+		padding-top: 20px;
+	}
+/*menu-bar*/
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.nav-item a {
+		font-size: 20px;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	.nav-item {
+		padding: 0 ;
+	}
+/*brif-info*/
+	.brif-info {
+		padding: 20px 50px;
+	}
+	#quote {
+		font-size: 18px;
+	}
+	#info p{
+		font-size: 15px;
+	}
+	#info-img {
+		padding-left: 50px;
+	}
+
+/*complaint-add*/
+	#complaint-tile h4 {
+		font-size: 18px;
+	}
+	#complaint-tile p {
+		font-size: 15px;
+	}
+	/*steps for filling complaints*/
+
+	#steps-head h3 {
+		font-size: 1.6em;
+	}
+	#steps-tile h5 {
+		font-size: 1.3em;
+	}
+	#steps-tile h6 {
+		font-size: 1em;
+	}
+	#steps-tile p {
+		font-size: 18px;
+
+	}
+	#steps-tile img {
+		margin-top: 10px;
+		width: 80%;
+		height: 80%;
+		margin-left: 50px;
+	}
+}
+
+/*****      EXTRA SUPER SMALL DEVICE ONLY       *****/
+@media (max-width: 575.98px) {
+/*top-info*/
+
+	.social-media span a{
+		letter-spacing: 0px;
+		font-size: 0px;
+	}
+	.social-media span a button {
+		letter-spacing: 0px;
+	}
+	.social-media {
+		font-size: 0px;
+	}
+	.call0 {
+		font-size: 0px;
+	}
+	.join a button {
+		font-size: 16px;
+	}
+	.join {
+		text-align: center;
+		margin-left: 30px;
+	}
+	.visible {
+  			visibility: hidden !important;
+	}
+	.invisible {
+  			visibility: hidden !important;
+	}
+/*brand-name*/
+	#brand-logo img {
+		width: 100%;
+	}
+	#brand-name a h1{
+		font-size: .9em;
+		letter-spacing: 0px;
+		padding-top: 25px;
+	}
+/*menu-bar*/
+	.navbar-nav {
+		margin-left: 0;
+	}
+	.nav-item a {
+		font-size: 15px;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+	.nav-item {
+		padding: 0 ;
+	}
+/*brif-info*/
+	.brif-info {
+		padding: 20px 40px;
+	}
+	#quote {
+		font-size: 18px;
+	}
+	#info p{
+		font-size: 15px;
+	}
+	#info-img {
+		padding-left: 0px;
+		
+	}
+	#info-img img {
+		width: 100%;
+		height:100%;
+	}
+
+/*complaint-add*/
+	#complaint-tile h4 {
+		font-size: 18px;
+	}
+	#complaint-tile p {
+		font-size: 15px;
+	}
+
+	/*steps for filling complaints*/
+
+	#steps-head h3 {
+		font-size: 1.3em;
+	}
+	#steps-tile h5 {
+		font-size: 1em;
+	}
+	#steps-tile h6 {
+		font-size: .8em;
+	}
+	#steps-tile p {
+		font-size: 15px;
+
+	}
+	#steps-tile img {
+		margin-top: 10px;
+		width: 80%;
+		height: 80%;
+		margin-left: 30px;
+	}
+}
