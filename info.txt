@@ -3,3 +3,7 @@ CMS
 color formate : #F4F4F4 , #FF7315 , #3A3535 , #232020
 https://colorhunt.co/palette/165293
 
+Complaint Register : Name, Email, Contect no, Address->city->pincode, discription about complaint, complaint images(max 2MB),
+			 
+database : user-register
+		complaint
