@@ -5,7 +5,10 @@ body {
     background-color: #FFCC99;
     background-repeat: no-repeat
 }
-
+.alert {
+    margin: 10px;
+    display: none;
+}
 
 .card0 {
     box-shadow: 0px 4px 8px 0px #757575;
@@ -61,7 +64,7 @@ textarea {
     border: 1px solid lightgrey;
     border-radius: 2px;
     margin: 5px;
-    width: 100%;
+    width: 98%;
     box-sizing: border-box;
     color: #272833;
     font-size: 14px;
@@ -76,7 +79,10 @@ textarea:focus {
     border: 1px solid #FF0000;
     outline-width: 0
 }
-
+#fname, #lname {
+    margin-left: -10px;
+    width: 105%;
+}
 button:focus {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;

@@ -33,21 +33,33 @@
                          </div>
                     </div>
                     <form class="col-lg-6" id="reg-info">
-                              <div class="row px-3"> <label>
-                                   <h6 class="mb-0 text-sm">Full Name</h6>
-                                   </label> <input class="mb-4" type="text" name="email" placeholder="Enter your name" required> 
+                              <div class="row px-3">
+                                   <div class="col">
+                                        <label>
+                                        <h6 class="mb-0 text-sm">First Name</h6>
+                                        </label> <input class="mb-4" id="fname" type="text" name="fname" placeholder="Enter your first name" required> 
+                                   </div>
+                                   <div class="col">
+                                        <label>
+                                        <h6 class="mb-0 text-sm">Last Name</h6>
+                                        </label> <input class="mb-4" id="lname" type="text" name="lname" placeholder="Enter your last name" required> 
+                                   </div>
                               </div>
                               <div class="row px-3"> <label>
                                    <h6 class="mb-0 text-sm">Email Address</h6>
-                                   </label> <input class="mb-4" type="email" name="email" placeholder="Enter a valid email address" required> 
+                                   </label> <input class="mb-4" id="email" type="email" name="email" placeholder="Enter a valid email address" required> 
                               </div>
                               <div class="row px-3"> <label>
                                  <h6 class="mb-0 text-sm">Password</h6>
-                                   </label> <input type="password" name="password" placeholder="Enter password" required> 
+                                   </label> <input class="mb-4" id="pwd1" type="password" name="password" placeholder="Enter password" required> 
                               </div>
                               <div class="row px-3"> <label>
                                  <h6 class="mb-0 text-sm">Confirm Password</h6>
-                                   </label> <input type="password" name="password" placeholder="Enter confirm password" required> 
+                                   </label> <input class="mb-4" id="pwd2" type="password" name="password" placeholder="Enter confirm password" required> 
+                              </div>
+
+                              <div class="alert alert-danger px-3" id="error" role="alert">
+                                   danger alert chek it our=t??
                               </div>
                               
                               <div class="row mb-3 px-3"> <button type="submit" class="btn btn-blue text-center">Registration</button> </div>
@@ -67,5 +79,7 @@
      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
      <script type="text/javascript" src="js/registration_script.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     <script src="js/registration_script.js"></script>
 </body>
 </html>
