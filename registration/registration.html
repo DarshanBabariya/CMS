@@ -12,9 +12,10 @@
      <!-- font-awesome-icons -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+     <!-- fevicon -->
+     <link rel="icon" href="../images/logo.png" sizes="16x16">
 
-
-     <title>REGISTRATION FORM</title>
+     <title>CMS | REGISTRATION FORM</title>
 </head>
 <body>
 
@@ -31,27 +32,27 @@
                               </div>
                          </div>
                     </div>
-                    <div class="col-lg-6" id="reg-info">
-                         <div class="row px-3"> <label class="mb-1">
+                    <form class="col-lg-6" id="reg-info">
+                              <div class="row px-3"> <label>
                                    <h6 class="mb-0 text-sm">Full Name</h6>
-                                   </label> <input class="mb-4" type="text" name="email" placeholder="Enter your name"> 
+                                   </label> <input class="mb-4" type="text" name="email" placeholder="Enter your name" required> 
                               </div>
-                              <div class="row px-3"> <label class="mb-1">
+                              <div class="row px-3"> <label>
                                    <h6 class="mb-0 text-sm">Email Address</h6>
-                                   </label> <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address"> 
+                                   </label> <input class="mb-4" type="email" name="email" placeholder="Enter a valid email address" required> 
                               </div>
-                              <div class="row px-3"> <label class="mb-1">
+                              <div class="row px-3"> <label>
                                  <h6 class="mb-0 text-sm">Password</h6>
-                                   </label> <input type="password" name="password" placeholder="Enter password"> 
+                                   </label> <input type="password" name="password" placeholder="Enter password" required> 
                               </div>
-                              <div class="row px-3"> <label class="mb-1">
+                              <div class="row px-3"> <label>
                                  <h6 class="mb-0 text-sm">Confirm Password</h6>
-                                   </label> <input type="password" name="password" placeholder="Enter confirm password"> 
+                                   </label> <input type="password" name="password" placeholder="Enter confirm password" required> 
                               </div>
                               
                               <div class="row mb-3 px-3"> <button type="submit" class="btn btn-blue text-center">Registration</button> </div>
-                              <div class="row mb-4 px-3"> <small class="font-weight-bold">Do have an account? <a class="text-danger">Login</a></small> </div>
-                          </div>
+                              <div class="row mb-4 px-3"> <small class="font-weight-bold">Do have an account? <a href="../login/login.html" class="text-danger">Login</a></small> </div>
+                         </form>
                     </div>
                </div>
                <div class="bg-blue py-4">

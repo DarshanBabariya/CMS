@@ -15,6 +15,9 @@
 
         <!-- font-awesome-icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- fevicon -->
+        <link rel="icon" href="images/logo.png" sizes="16x16">
 
         <title> Complaint Management System </title>
 
@@ -33,25 +36,25 @@
                 </div>
                 <div class="social-media visible col-lg-3 col-md-2 col-sm-1 col-1" role="alert">
                     <span> 
-                        <a href="#">
+                        <a href="#" title="Facebook">
                             <i class='fab fa-facebook-square'></i>
                         </a> |&nbsp;
-                        <a href="#">
+                        <a href="#" title="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a> |&nbsp;
-                        <a href="#">
+                        <a href="#" title="Linkedin">
                             <i class="fab fa-linkedin"></i>
                         </a> |&nbsp;
-                        <a href="#">
+                        <a href="#" title="Twitter">
                             <i class="fab fa-twitter-square "></i>
                         </a> &nbsp;
                     </span>
                 </div>
                 <div class="join  col-lg-3 col-md-4 col-sm-10 col-10">
-                    <a href="login/login.html" title="login">
+                    <a href="login/login.html" title="Login">
                         <i class="fa fa-user"></i>Login
                     </a>
-                    <a href="registration/registration.html" title="register">
+                    <a href="registration/registration.html" title="Register">
                         <i class="fa fa-user-plus"></i>Register
                     </a>
                 </div>
@@ -73,15 +76,15 @@
             </div>
         </div>
         <!-- menu-bar -->
-        <header>
+        <header class="sticky-top">
             <nav id="header-nav" class="navbar navbar-expand-lg navbar-default ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-th" style="font-size:25px;"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown" >
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">&nbsp;Home&nbsp;<span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="#">&nbsp;Home&nbsp;<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">&nbsp;About&nbsp;</a>
@@ -206,6 +209,105 @@
                 </div>
            </div>
        </div>
+
+       <!-- citizen circuler -->
+       <div class="container-fluid" id="circular">
+            <div class="header text-center" id="circular-head">
+                <h3> Citizen Circular </h3>
+            </div>
+            <div class="circular-content mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                      Make In India
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Make in India is an initiative by the Government of India to encourage companies to manufacture in India and incentivize dedicated investments into manufacturing.</p>
+                      <a href="https://www.makeinindia.com/" target="_blank" class="btn btn-secondary circular">Click here for more Information</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      Smart Cirt
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">A smart city is an urban area that uses different types of electronic methods and sensors to collect data. The smart city concept integrates information and communication technology (ICT), and various physical devices connected to the IoT (Internet of things) network to optimize the efficiency of city operations and services and connect to citizens.</p>
+                      <a href="https://smartcities.gov.in/" target="_blank" class="btn btn-secondary circular">Click here for more Information</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      Swachh Bharat Mission
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Swachh Bharat Mission (SBM), Swachh Bharat Abhiyan, or Clean India Mission is a country-wide campaign initiated by the Government of India in 2014 to eliminate open defecation and improve solid waste management. It is a restructured version of the Nirmal Bharat Abhiyan launched in 2009 that failed to achieve its intended targets.</p>
+                      <a href="https://swachhbharatmission.gov.in/sbmcms/index.htm" target="_blank" class="btn btn-secondary circular">Click here for more Information</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      Digital India
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Digital India is a campaign launched by the Government of India in order to ensure the Government's services are made available to citizens electronically by improved online infrastructure and by increasing Internet connectivity or making the country digitally empowered in the field of technology.</p>
+                      <a href="https://www.digitalindia.gov.in/" target="_blank" class="btn btn-secondary circular">Click here for more Information</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      Skill India
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">National Skill Development Corporation under the guidance of the Ministry of Skill Development & Entrepreneurship has introduced an initiative which allows aspirant candidates to register for skill training/learning and employment opportunities through the online portal.</p>
+                      <a href="https://skillindia.nsdcindia.org/" target="_blank" class="btn btn-secondary circular">Click here for more Information</a>
+                    </div>
+                  </div>
+            </div>
+       </div>
+
+       <!-- footer -->
+       <footer class="panel-footer"> <!-- Footer -->
+     <div class="container">
+          <div class="row">
+               <section id="links" class="col-md-4">
+                    <span> Usefull Links : </span> <br><br>
+                   <a href="https://ahmedabadcity.gov.in/portal/index.jsp" target="_blank">
+                    <i class="fa fa-caret-right"></i> Ahmedabad Municipal Corporation </a><br>
+
+                    <a href="http://www.amts.co.in/" target="_blank">
+                    <i class="fa fa-caret-right"></i> Ahmedabad Municipal Transport Service </a><br>
+
+                    <a href="https://www.gujarattourism.com/" target="_blank">
+                        <i class="fa fa-caret-right"></i> Gujarat Tourism </a><br>
+
+                    <a href="https://www.digitalgujarat.gov.in/" target="_blank">
+                        <i class="fa fa-caret-right"></i> Digital Gujarat </a><br>
+
+                    <hr class="visible-xs">
+               </section>
+               <section id="address" class="col-md-4">
+                    <span>Address : </span> <br><br>
+                       <a href="https://goo.gl/maps/moaNxG97UzZDhF9DA" target="_blank"><i class="fa fa-map-signs"></i> 
+                       Mahanagar Seva Sadan
+                        Sardar Patel Bhavan
+                        Danapith
+                        Ahmedabad - 380001.
+                        Gujarat, India.</a>
+                    
+                    <hr class="visible-xs">
+               </section>
+               <section id="footer-info" class="col-md-4">
+                    <p>
+                        The “Complaint Management System (CMS)” is a web based enterprise solution that allow that Municipality / Corporation to enhance citizen satisfaction through comprehensive service management and efficient service delivery.                    </p>
+               </section>
+          </div>
+          <div class="text-center" id="copy">
+               <p> &copy; Copyright 2021 All rights reserved with by Complaint Management System </p>
+          </div>
+          <div class="Handcrafted">
+            <span>Developed by, <b> CMS DE Team</b></span>
+          </div>
+     </div>
+    </footer> 
       
 
         

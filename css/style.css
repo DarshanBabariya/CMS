@@ -89,9 +89,24 @@ body {
 	color: #fff;
 	border: 2px solid #fff;
   	border-radius: 8px;
-
+	transition: .7s;
 }
-
+.active{
+	background-color: #FF0000;
+	color: #fff !important;
+	border: 2px solid #fff;
+  	border-radius: 8px;
+}
+.mob-nav {
+    cursor: pointer;
+    display: none;
+}
+.mob-nav div{
+    width: 25px;
+    height: 3px;
+    background-color: #FFF;
+    margin: 5px;
+}
 /*brif-info*/
 .brif-info {
 	padding: 50px 50px;
@@ -226,9 +241,97 @@ body {
 #steps-tile img {
 	margin-top: 50px;
 	width: 100%;
-	height: 100%:;
+	height: 100%;
+}
+/* citizen-circular */
+#circular {
+	background-color: #FF0000;
+	padding-bottom: 100px;
+}
+#circular-head h3 {
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	color: #272833;
+}
+.circular-content {
+	width: 70%;
+	height: 60vh;
+	border: 2px solid black;
+	overflow: auto;
+	background-color: #FFF;
+	box-shadow: 10px 10px 10px #272833;
+}
+.card {
+	margin: 5px;
+}
+.card-header {
+	font-size: 1em;
+	background-color: #FFF8CD;
+	font-weight: bold;
+	color: #272833;
+}
+.card-text{
+	font-size: 20px;
+	text-align: justify;
+	color: #272833;
+}
+.circular-content::-webkit-scrollbar {
+    width: 15px;
+  }
+.circular-content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+.circular-content::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#FF0000, #FFF8CD	);
 }
 
+/* Footer */
+.panel-footer {
+	background-color: #000;
+	color: #ffffffd5;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+
+}
+#links > span, #address > span {
+		font-weight: 590;
+		color: #fff;
+		letter-spacing: 1px;
+}
+#links , #address {
+		font-size: 20px;
+}
+#links a, #address a{
+	color: #ffffffd5;
+	text-align: justify;
+}
+#links a:hover, #address a:hover{
+	text-decoration: none;
+}
+#copy p {
+	font-size: 20px;
+	color: #fff;
+}
+.Handcrafted {
+	text-align: right;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+.Handcrafted span b {
+	color: #FF0000;
+	font-size: 20px;
+}
+#footer-info{
+	font-size: 20px;
+}
 /*****      EXTRA LARGE DEVICE ONLY         *****/
 @media (min-width: 1200px) {
 /*top-info*/
@@ -315,6 +418,37 @@ body {
 	#steps-tile img {
 		margin-top: 150px;
 	}	
+	
+	/* citizen-circular */ 
+	#circular-head h3 {
+		font-size: 1.8em;
+	}
+	.circular-content {
+		width: 70%;
+	}
+
+	.card-header {
+		font-size: 1em;
+	}
+	.card-text{
+		font-size: 18px;
+	}
+	
+	/* Footer */
+	#links , #address {
+			font-size: 20px;
+	}
+	#copy p {
+		font-size: 20px;
+	}
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 20px;
+	}
+
+
 }
 
 /*****      MEDIUM DEVICE ONLY          *****/
@@ -394,6 +528,33 @@ body {
 		width: 80%;
 		height: 80%;
 		margin-left: 50px;
+	}
+	/* citizen-circular */
+	#circular-head h3 {
+		font-size: 1.6em;
+	}
+	.circular-content {
+		width: 90%;
+	}
+
+	.card-header {
+		font-size: .9em;
+	}
+	.card-text{
+		font-size: 18px;
+	}
+	/* Footer */
+	#links , #address {
+		font-size: 18px;
+	}
+	#copy p {
+		font-size: 18px;
+	}
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 20px;
 	}
 }
 
@@ -489,6 +650,35 @@ body {
 		height: 80%;
 		margin-left: 50px;
 	}
+	/* citizen-circular */
+	#circular-head h3 {
+		font-size: 1.6em;
+	}
+	.circular-content {
+		width: 90%;
+	}
+	.card-header {
+		font-size: .9em;
+	}
+	.card-text{
+		font-size: 18px;
+	}
+	/* Footer */
+	#links , #address {
+		font-size: 18px;
+	}
+	#copy p {
+		font-size: 18px;
+	}
+	#footer-info{
+		font-size: 18px;
+	}
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 20px;
+	}
 }
 
 /*****      EXTRA SUPER SMALL DEVICE ONLY       *****/
@@ -529,6 +719,7 @@ body {
 		font-size: .9em;
 		letter-spacing: 0px;
 		padding-top: 25px;
+		text-align: center;
 	}
 /*menu-bar*/
 	.navbar-nav {
@@ -589,5 +780,37 @@ body {
 		width: 80%;
 		height: 80%;
 		margin-left: 30px;
+	}
+	/* citizen-circular */
+	#circular-head h3 {
+		font-size: 1.3em;
+	}
+	.circular-content {
+		width: 90%;
+	}
+	.card-header {
+		font-size: .8em;
+	}
+	.card-text{
+		font-size: 15px;
+	}
+	.circular-btn{
+		font-size: 13px;
+	}
+	/* Footer */
+	#links , #address {
+		font-size: 17px;
+	}
+	#copy p {
+		font-size: 18px;
+	}
+	#footer-info{
+		font-size: 17px;
+	}
+	.Handcrafted {
+		font-size: 15px;
+	}
+	.Handcrafted span b {
+		font-size: 18px;
 	}
 }

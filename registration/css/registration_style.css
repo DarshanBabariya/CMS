@@ -60,11 +60,10 @@ textarea {
     padding: 10px 12px 10px 12px;
     border: 1px solid lightgrey;
     border-radius: 2px;
-    margin-bottom: 5px;
-    margin-top: 2px;
+    margin: 5px;
     width: 100%;
     box-sizing: border-box;
-    color: #2C3E50;
+    color: #272833;
     font-size: 14px;
     letter-spacing: 1px
 }
@@ -74,7 +73,7 @@ textarea:focus {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #304FFE;
+    border: 1px solid #FF0000;
     outline-width: 0
 }
 
