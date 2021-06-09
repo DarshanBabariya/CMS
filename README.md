@@ -5,9 +5,9 @@ Complaint Managment System
 It provides a comprehensive platform to resolve these complaints with ease. 
 Its features include an online complaint box where customers can drop in their complaints so that the service provider can access, analyse and respond the customer issues.
 
-# The objective of the web complaint management software is to get away with the hassle faced in dealing with the issues that are faced in online businesses.
+The objective of the web complaint management software is to get away with the hassle faced in dealing with the issues that are faced in online businesses.
 
-# The software is an excellent solution to resolve issues in more managed and streamlined manner. 
+The software is an excellent solution to resolve issues in more managed and streamlined manner. 
 It saves time as well as money in resolving issues easily. 
 This helps in building customer loyalty by efficient handling of their complaints and you can achieve a sustainable client database.
 
@@ -28,6 +28,6 @@ If the citizen is not satisfied he/she can request to re-open the complaint, whi
 
 
 
-************* Link of Complaint Management System : "darshanbabariya.epizy.com/CMS/homepage/index.php" *********************
+# Link of Complaint Management System : "darshanbabariya.epizy.com/CMS/homepage/index.php" 
 
 
